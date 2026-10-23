@@ -2,7 +2,9 @@
 
 Backend for a limited-time flash sale. Some products have only 1, 5 or 10 units, and hundreds of customers press "Buy" at the same moment. The API guarantees that **a product is never oversold** and that **a retried request never creates a second order**.
 
-- **Live API:** `https://<your-service>.onrender.com` _(placeholder, add after deploying)_
+**Live API:** https://flash-sale-api-r0ii.onrender.com/docs
+
+> Hosted on Render's free tier: the first request may take up to a minute while the server wakes up.
 - **Interactive docs:** `https://<your-service>.onrender.com/docs`
 
 Stack: FastAPI, PostgreSQL on Neon, psycopg 3 with raw SQL (no ORM), psycopg_pool, bcrypt, JWT.
